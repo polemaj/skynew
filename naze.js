@@ -609,7 +609,7 @@ Ketik *nyerah* untuk menyerah dan mengakui kekalahan`
             }
             break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                naze.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/a69277968591202ee81e8.jpg' }, caption: `*${ucapanWaktu} Kak ${m.pushName}*\n\n *Jika ingin berdonasi silahkan scan gambar diatas*\n\n*Jika ingin sewa bot atau premium*\n*Silahkan Chat Owner*\n\n*Atau klik link dibawah ini*\n_https://saweria.co/MaxxyBotz\n\n*Atau Transfer via*\n- *Dana*\n Ke nomer berikut : 085380166282\n\n_Terima kasih_` }, { quoted: m })
+                naze.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/cac9e279b89b6d1f569a3.png' }, caption: `*${ucapanWaktu} Kak ${m.pushName}*\n\n *Jika ingin berdonasi silahkan chat owner*\n\n*Jika ingin sewa bot atau premium*\n*Silahkan Chat Owner*\n\n*Atau klik link dibawah ini*\n_https://wa.me/6282128744254\n\n` }, { quoted: m })
             }
             break
             case 'sc': {
@@ -1317,7 +1317,7 @@ break
                 m.reply(`Mengirim Broadcast Ke ${anu.length} Chat\nWaktu Selesai ${anu.length * 1.5} detik`)
 		for (let yoi of anu) {
 		    await sleep(3000)
-                      let txt = `「 *Broadcast Maxxy Botz* 」\n\n${text}`
+                      let txt = `「 *Broadcast SkyBot* 」\n\n${text}`
                       let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖List Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
             await naze.sendButtonText(m.chat, buttons, txt, nyoutube, m)
 		}}
