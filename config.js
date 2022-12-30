@@ -19,10 +19,10 @@ global.APIKeys = {
 }
 
 // Other
-global.owner = ['15203484182','6285380166282']
-global.ownernomer = "15203484182"
+global.owner = ['6282128744254']
+global.ownernomer = "6282128744254"
 global.premium = ['6285380166282']
-global.packname = 'SychoBot\n\nNyolong? Izin dulu sama creator bot nya braderr😎'
+global.packname = 'SkyBot\n\nNyolong? Izin dulu sama creator bot nya braderr😎'
 global.author = '- 𝙂𝙖𝙙𝙞𝙣𝙜𝘼𝙜𝙖𝙣𝙞 -'
 global.sessionName = 'nazedev'  //jangan diganti bro nanti error
 global.prefa = ['','!','.','#','&']
